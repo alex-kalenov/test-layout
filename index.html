@@ -1,8 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
   <head>
     <title>Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -16,7 +17,7 @@
             <a href="#">Контакты</a>
           </nav>
           <div class="header__tools">
-            <a class="header__phone" href="tel:+7 (495) 662-87-32"
+            <a class="header__phone" href="tel:+74956628732"
               >+7 (495) 662-87-32</a
             >
             <a class="header__account" href="#">Личный кабинет</a>
@@ -47,55 +48,89 @@
     </header>
     <main>
       <section class="slider">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
           <div class="slider__dots-wrapper">
             <button class="slider__arrow">&#8592;</button>
-          <ol class="carousel-indicators slider__dots">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <button class="slider__arrow">&#8594;</button>
-        </div>
-        <div class="slider__doors-wrapper">
-          <span class="slider__doors__sub-title"><b>S - 1649px</b> 30px</span>
-          <span class="slider__doors__title">Весь модельный ряд
-            для серии Loft</span>
-          <span class="slider__doors__sub-title"><b>S - 1649px</b> 30px</span>
-          <ol class="carousel-indicators slider__doors row">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active col-3">
-              <img src="img/door-1.png"/>
-              <span>Loft 1</span>
-            </li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="col-3">
-              <img src="img/door-2.png"/>
-              <span>Loft 2</span>
-            </li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="col-3">
-              <img src="img/door-3.png"/>
-              <span>Loft 3</span>
-            </li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="col-3">
-              <img src="img/door-4.png"/>
-              <span>Loft 4</span>
-            </li>
-            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <ol class="carousel-indicators slider__dots">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+              ></li>
+            </ol>
+            <button class="slider__arrow">&#8594;</button>
+          </div>
+          <div class="slider__doors-wrapper">
+            <span class="slider__doors__sub-title"><b>S - 1649px</b> 30px</span>
+            <span class="slider__doors__title"
+              >Весь модельный ряд для серии Loft</span
+            >
+            <span class="slider__doors__sub-title"><b>S - 1649px</b> 30px</span>
+            <ol class="carousel-indicators slider__doors row">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active col-3"
+              >
+                <img src="img/door-1.png" alt="slide-door" />
+                <span>Loft 1</span>
+              </li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+                class="col-3"
+              >
+                <img src="img/door-2.png" alt="slide-door" />
+                <span>Loft 2</span>
+              </li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+                class="col-3"
+              >
+                <img src="img/door-3.png" alt="slide-door" />
+                <span>Loft 3</span>
+              </li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+                class="col-3"
+              >
+                <img src="img/door-4.png" alt="slide-door" />
+                <span>Loft 4</span>
+              </li>
+              <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
-          </ol>
-        </div>
+            </ol>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/pic.jpg" class="picture"/>
+              <img src="img/pic.jpg" class="picture" alt="slide-photo" />
             </div>
             <div class="carousel-item">
-              <img src="img/pic.jpg" class="picture"/>
+              <img src="img/pic.jpg" class="picture" alt="slide-photo" />
             </div>
             <div class="carousel-item">
-              <img src="img/pic.jpg" class="picture"/>
+              <img src="img/pic.jpg" class="picture" alt="slide-photo" />
             </div>
             <div class="carousel-item">
-              <img src="img/pic.jpg" class="picture"/>
+              <img src="img/pic.jpg" class="picture" alt="slide-photo" />
             </div>
           </div>
         </div>
@@ -259,66 +294,76 @@
       <button class="discuss__close">&#10005;</button>
       <div class="discuss__pre-submit discuss__active">
         <h2 class="discuss__title">Обсудить индивидуальный заказ</h2>
-      <span class="discuss__sub-title">или задать вопрос</span>
-      <form id="leave-reply" class="discuss__reply">
-        <input name="fio" id="fio" type="text" placeholder="Контактное лицо" />
-        <input
-          name="phone"
-          id="phone"
-          type="tel"
-          placeholder=" +7 (__) -__-__-__"
-        />
-        <input
-          name="mail"
-          id="mail"
-          type="email"
-          placeholder="Укажите email, например, miksal@gmail.com"
-        />
-        <textarea
-          name="detail"
-          id="detail"
-          placeholder="Меня интересует: DUBLIN (Loft)"
-        ></textarea>
-        <label for="material" class="discuss__attach">
-          &#x271A; Прикрепить материалы
-        </label>
-        <input name="material" id="material" type="file" />
-        <div class="discuss__bottom-bar">
+        <span class="discuss__sub-title">или задать вопрос</span>
+        <form id="leave-reply" class="discuss__reply">
           <input
-            type="submit"
-            value="Связаться со мной"
-            class="discuss__action action action_dark"
+            name="fio"
+            id="fio"
+            type="text"
+            placeholder="Контактное лицо"
           />
-          <span class="discuss__agreement">
-            Нажимая кнопку «Отправить», я даю
-            <a href="#">согласие на обработку моих персональных данных</a>
-          </span>
-        </div>
+          <input
+            name="phone"
+            id="phone"
+            type="tel"
+            placeholder=" +7 (__) -__-__-__"
+          />
+          <input
+            name="mail"
+            id="mail"
+            type="email"
+            placeholder="Укажите email, например, miksal@gmail.com"
+          />
+          <textarea
+            name="detail"
+            id="detail"
+            placeholder="Меня интересует: DUBLIN (Loft)"
+          ></textarea>
+          <label for="material" class="discuss__attach">
+            &#x271A; Прикрепить материалы
+          </label>
+          <input name="material" id="material" type="file" />
+          <div class="discuss__bottom-bar">
+            <input
+              type="submit"
+              value="Связаться со мной"
+              class="discuss__action action action_dark"
+            />
+            <span class="discuss__agreement">
+              Нажимая кнопку «Отправить», я даю
+              <a href="#">согласие на обработку моих персональных данных</a>
+            </span>
+          </div>
+        </form>
       </div>
       <div class="discuss__post-submit">
-        <span class="discuss__success-title">Спасибо!
-          Ваше сообщение успешно отправлено!</span>
-          <span class="discuss__success-sub-title">В ближайшее время наш менеджер свяжется с вами, чтобы обсудить детали.<br /><br/>
-            А пока вы можете ознакомиться с нашими <a href="#">новинками</a> или посмотреть реализованные проекты.</span>
+        <span class="discuss__success-title"
+          >Спасибо! Ваше сообщение успешно отправлено!</span
+        >
+        <span class="discuss__success-sub-title"
+          >В ближайшее время наш менеджер свяжется с вами, чтобы обсудить
+          детали.<br /><br />
+          А пока вы можете ознакомиться с нашими <a href="#">новинками</a> или
+          посмотреть реализованные проекты.</span
+        >
       </div>
-        <div class="discuss__how">
-          <h3 class="discuss__how__title">Как мы реализуем проект</h3>
-          <ul class="discuss__how__list">
-            <li>Производим замеры для будущего изделия (<b>5–15 дней</b>)</li>
-            <li>Разрабатываем эскизы и выпускаем заказ (<b>15–35 дней</b>)</li>
-            <li>Доставка и установка (<b>2-5 дней</b>)</li>
-          </ul>
-        </div>
-      </form>
+      <div class="discuss__how">
+        <h3 class="discuss__how__title">Как мы реализуем проект</h3>
+        <ul class="discuss__how__list">
+          <li>Производим замеры для будущего изделия (<b>5–15 дней</b>)</li>
+          <li>Разрабатываем эскизы и выпускаем заказ (<b>15–35 дней</b>)</li>
+          <li>Доставка и установка (<b>2-5 дней</b>)</li>
+        </ul>
+      </div>
     </div>
 
     <script src="libs/js/jquery-3.6.1.min.js"></script>
     <script src="libs/js/popper.min.js"></script>
     <script src="libs/js/bootstrap.min.js"></script>
     <script>
-      $('#carouselExampleIndicators').carousel({
+      $("#carouselExampleIndicators").carousel({
         interval: false,
-      })
+      });
 
       $(".description__expand").click(function () {
         $(this).next().slideToggle("slow");
@@ -328,8 +373,8 @@
       $(".action").click(function () {
         $("#discuss").animate({ left: "0" }, 350);
         $("body").css("overflow", "hidden");
-        $('.discuss__post-submit').removeClass('discuss__active');
-        $('.discuss__pre-submit').addClass('discuss__active');
+        $(".discuss__post-submit").removeClass("discuss__active");
+        $(".discuss__pre-submit").addClass("discuss__active");
       });
 
       $(".discuss__close").click(function () {
@@ -339,8 +384,8 @@
 
       $("#leave-reply").submit(function (event) {
         event.preventDefault();
-        $('.discuss__pre-submit').removeClass('discuss__active');
-        $('.discuss__post-submit').addClass('discuss__active');
+        $(".discuss__pre-submit").removeClass("discuss__active");
+        $(".discuss__post-submit").addClass("discuss__active");
       });
     </script>
   </body>
