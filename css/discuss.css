@@ -1,0 +1,145 @@
+.discuss {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #404040;
+  color: white;
+  padding: 39px 181px;
+  z-index: 100;
+  overflow-x: scroll;
+}
+
+.discuss__close {
+  display: block;
+  margin: 0 0 0 auto;
+  background: none;
+  border: none;
+  color: white;
+  padding: 0;
+  line-height: 1;
+  font-size: 30px;
+}
+
+.discuss__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 15px 0;
+}
+
+.discuss__sub-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.discuss input {
+  padding: 17px 14px;
+  display: block;
+  width: 510px;
+  margin-bottom: 30px;
+}
+
+.discuss textarea {
+  height: 183px;
+  padding: 12px 14px;
+  resize: none;
+  width: 510px;
+  margin-bottom: 50px;
+}
+
+.discuss__attach {
+  display: block;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 300;
+  margin-bottom: 75px;
+}
+
+input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.discuss__bottom-bar {
+  display: flex;
+  align-items: center;
+}
+
+.discuss__action {
+  max-width: 242px;
+  margin-bottom: 0 !important;
+}
+
+.discuss__agreement {
+  margin-left: 32px;
+  max-width: 280px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.discuss__agreement a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.discuss__how {
+  margin-top: 80px;
+}
+
+.discuss__how__title {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.discuss__how__list {
+  list-style: none;
+  padding: 0;
+}
+
+.discuss__how__list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.discuss__how__list li::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url("../img/shape.png");
+  margin-right: 13px;
+}
+
+.discuss__pre-submit {
+  display: none;
+}
+
+.discuss__post-submit {
+  display: none;
+  max-width: 645px;
+}
+
+.discuss__post-submit > * {
+  display: block;
+}
+
+.discuss__success-title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.discuss__success-sub-title {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.discuss__active {
+  display: block;
+}

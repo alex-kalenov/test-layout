@@ -1,0 +1,116 @@
+.services {
+  padding-top: 70px;
+}
+
+.services__label {
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  background-color: rgba(188, 228, 243, 0.27);
+  padding: 20px 100px;
+}
+
+/*****************INFO*****************/
+
+.services__info__purchase {
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.services__info__price {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.services__info__contains {
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 23px;
+}
+
+.services__info__contains a {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.21);
+}
+
+.services__info__action {
+  padding: 16px 27px;
+  font-size: 17px;
+}
+
+.services__info__link {
+  font-size: 19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.services__info__link::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 33px;
+  margin-right: 15px;
+}
+
+.services__info__link_download::before {
+  background-image: url("../img/download.png");
+}
+
+.services__info__link_locations::before {
+  background-image: url("../img/locations.png");
+}
+
+.services__info__text {
+  margin: 40px 0 0;
+  font-size: 19px;
+  font-weight: 400;
+  padding-right: 135px;
+}
+
+/*****************LIST*******************/
+
+.services__list {
+  margin-top: 20px;
+  background: #f5f5f5;
+  padding: 30px 45px 60px;
+}
+
+.services__list__label {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.services__list__item {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 12px 11px 0;
+  height: 145px;
+}
+
+.services__list__item-text {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 0;
+  display: block;
+}
+
+.services__list__item-subtext {
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+}
+
+.services__other {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+}

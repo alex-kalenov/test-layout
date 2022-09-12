@@ -1,0 +1,16 @@
+.footer {
+  background-color: #111111;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 31px 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container > * {
+  display: block;
+}

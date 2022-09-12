@@ -1,0 +1,123 @@
+.header {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  z-index: 10;
+}
+
+.header a:hover {
+  color: rgb(204, 204, 204);
+}
+
+/*****************HEADER TOP*****************/
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.73);
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__menu a {
+  display: block;
+  padding: 17px 30px;
+}
+
+.header__menu a:first-child {
+  padding-left: 0;
+}
+
+.header__menu a:last-child {
+  padding-right: 0;
+}
+
+.header__tools {
+  display: flex;
+  align-items: center;
+}
+
+.header__phone {
+  display: flex;
+}
+
+.header__phone::before {
+  content: "";
+  background-image: url("../img/icons/phone.svg");
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-right: 12px;
+}
+
+.header__phone:hover::before,
+.header__account:hover::before {
+  filter: invert(0.2);
+}
+
+.header__account {
+  margin: 0 65px;
+  display: flex;
+  align-items: center;
+}
+
+.header__account::before {
+  content: "";
+  background-image: url("../img/icons/account.svg");
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-right: 12px;
+}
+
+.header__action {
+  padding: 5px 15px;
+}
+
+/*****************HEADER BOTTOM*****************/
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__bio {
+  display: flex;
+  align-items: center;
+}
+
+.header__info {
+  display: block;
+  margin-left: 20px;
+  max-width: 270px;
+}
+
+.header__categories {
+  display: flex;
+}
+
+.header__categories a {
+  font-size: 19px;
+  padding: 17px 35px 23px;
+  display: block;
+}
+
+.header__categories a:last-child {
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__categories a:last-child::before {
+  content: "";
+  background-image: url("../img/icons/present.png");
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-right: 7px;
+}
